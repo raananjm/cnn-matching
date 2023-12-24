@@ -1,7 +1,18 @@
 import torch
-from lib.model import D2Net
-from lib.utils import preprocess_image
-from lib.pyramid import process_multiscale
+import sys
+# Append the directory to your python path using sys
+sys.path.append('/content/drive/MyDrive/lib')
+# Import the module
+import model
+model import D2Net
+sys.path.append('/content/drive/MyDrive/lib')
+# Import the module
+import utils
+utils import preprocess_image
+sys.path.append('/content/drive/MyDrive/lib')
+# Import the module
+import pyramid
+pyramid import process_multiscale
 import scipy
 import scipy.io
 import scipy.misc
